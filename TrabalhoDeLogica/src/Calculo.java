@@ -64,11 +64,15 @@ public class Calculo {
 			case 'v':
 				y = 'v';
 				break;
+			case 'F':
+				y = 'f';
+				break;
+			case 'V':
+				y = 'v';
+				break;
 			default:
-				System.out.println("");
-				System.out.println("Valor digitado não permitido!!!");
-				System.out.println("Por favor digita f (falso) ou v (verdadeiro).");
-				System.out.println("");
+				System.out.println("\nValor digitado não permitido!!!");
+				System.out.print("Por favor digita f (falso) ou v (verdadeiro):");
 				x = ler.nextLine().charAt(0);
 				break;
 			}
